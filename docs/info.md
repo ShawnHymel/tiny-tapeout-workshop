@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+7 segment driver. It converts a 4-bit binary (0-9) to 7-segment display pin outputs.
 
 ## How to test
 
-Explain how to use your project
+Hook up a 7-seg. Toggle the inputs.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A
