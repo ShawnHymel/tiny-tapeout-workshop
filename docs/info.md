@@ -9,12 +9,21 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-7 segment driver. It converts a 4-bit binary (0-9) to 7-segment display pin outputs.
+2-bit 7 segment driver. It converts a 2-bit binary (0-3) to 7-segment display pin outputs.
 
 ## How to test
 
-Hook up a 7-seg. Toggle the inputs.
+Inputs 0 and 1 correspond to input bits 0 and 1. Output pins connect to 7-segment display:
+
+0: a
+1: b
+2: c
+3: d
+4: e
+5: f
+6: g
+7: dp
 
 ## External hardware
 
-N/A
+Drive it with whatever you want.
